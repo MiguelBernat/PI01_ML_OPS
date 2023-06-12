@@ -23,7 +23,7 @@ NOTA: Dado que el archivo binario del modelo es muy pesado, se redujo la cantida
 ---------------------------------------
 
 ## API
-Para la creación de la API, se creó un entorno virtual de Python, que permite trabajar las consultas con el modulo de fastAPI. Este modulo permite crear una plataforma y/o servicio web, por medio del servidor Render, que trabaja bajo sistema HTTP simples. En este [enlace](https://proyecto-individual-ml-ops-awac.onrender.com/docs) podemos realizar las consultas siguientes:
+Para la creación de la API, se creó un entorno virtual de Python, que permite trabajar las consultas con el modulo de fastAPI. Este modulo permite crear una plataforma y/o servicio web, por medio del servidor Render, que trabaja bajo sistema HTTP simples. En este [enlace](https://proyecto-individual-ml.onrender.com/docs) podemos realizar las consultas siguientes:
 
 * Cantidad de películas que se estrenaron un mes determinado historicamente (cantidad_filmaciones_mes).
 * Cantidad de películas que se estrenaron un día determinado historicamente (cantidad_filmaciones_dia).
