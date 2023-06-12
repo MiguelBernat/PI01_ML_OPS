@@ -1,0 +1,6 @@
+/credits.csv
+/movies_dataset.csv
+*.pyc
+/venv
+venv
+venv/
