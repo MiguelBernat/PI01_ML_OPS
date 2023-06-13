@@ -8,7 +8,7 @@ Se realizó un proceso de extracción de archivos tipo csv con información sobr
 ----------------------------------
 
 ## ETL y EDA
-Primero se importaron los archivos movies_dataset.csv y credits.csv y se concatenaron para su utilización como dataframe. [Link hacia el repositorio](https://drive.google.com/drive/folders/1WzUxe32Lqeh8rccOvdSMt2o2PaNu1iN4?usp=sharing)
+Primero se importaron los archivos movies_dataset.csv y credits.csv y se concatenaron para su utilización como dataframe. [Enlace hacia el repositorio](https://drive.google.com/drive/folders/1WzUxe32Lqeh8rccOvdSMt2o2PaNu1iN4?usp=sharing)
 
 ETL (Extract, Transform and Load): Se desanidaron las columnas en donde el formato de sus valores eran JSON, se normalizaron las columnas del dataframe, se cambio el tipo de dato de las columnas, se eliminaron valores nulos y por último se eliminaron las columnas que no se utilizarían en este proyecto (Checar el notebook ETL.ipynb).
 
@@ -18,7 +18,7 @@ EDA (Exploratory Data Analysis): Se visualizaron múltiples gráficos para el en
 ## Sistema de recomendación
 Con los datos limpios y un análisis adecuado de la información que se obtuvo de los datasets, se creó un modelo de Machine Learning utilizando técnicas de procesamiento del lenguaje natural para que al ingresar el título de una película nos recomiende 5 películas de acuerdo a las palabras claves que se repitan dentro de la sinopsis de las películas, los actores, el género y los mismos títulos de estas.
 
-NOTA: Dado que el archivo binario del modelo es muy pesado, se redujo la cantidad de filas a utilizar en este mismo a 4000.
+NOTA: Dado que el archivo binario del modelo es muy pesado, se redujo la cantidad de filas a utilizar para este mismo a 4000.
 
 ---------------------------------------
 
@@ -32,3 +32,8 @@ Para la creación de la API, se creó un entorno virtual de Python, que permite 
 * Cantidad de películas en las que ha participado un actor determinado, su retorno total y retorno promedio (get_actor).
 * Películas en las que ha participado un director determinado, así como su retorno por cada una y su retorno total (get_director)
 * Por último, se puede realizar una consulta en la que se ingresa el título de una película y nos recomendará 5 películas similares gracias a nuestra implementación de Machine Learning.
+
+----------------
+## Video
+En el siguiente [enlace](https://www.youtube.com/watch?v=3ND5x-Dj_yM&ab_channel=MiguelBernat) estará disponible un video haciendo la presentación del proyecto y los procesos realizados para llegar al producto final y poder satisfacer las consultas del proyecto.
+
